@@ -1,7 +1,6 @@
 # ReTube – Bringing Back YouTube Video Responses
 
-ReTube is a simple browser extension for Chrome, Firefox and Safari
-bringing the video responses feature back to YouTube. **Welcome back to 2006!**
+ReTube is a simple browser extension bringing the Video Responses feature back to YouTube. **Welcome back to 2006!**
 
 ## Use cases
 - Reply to somebody's video with your own and potentially start a conversation
@@ -9,12 +8,15 @@ bringing the video responses feature back to YouTube. **Welcome back to 2006!**
 - Whatever else you can think of
 
 ## Instructions
-1. Install the extension in your browser: [Chromium](https://#), [Firefox](https://#), [Safari](https://#)
+1. Install the extension in your browser: [Chromium](https://chromewebstore.google.com/detail/retube–youtube-video-responses/pdbemkgdionejlkopddojpjighilhdlk), [Firefox](https://addons.mozilla.org/en-US/firefox/addon/retube/), Safari *
 2. Go to any video page on YouTube
 3. Copy the video's ID from the URL – e.g., https://www.youtube.com/watch?v=dQw4w9WgXcQ → `dQw4w9WgXcQ`
 4. Create a video response by adding `re:ORIGINAL_VIDEO_ID` to your video's title (e.g., re:dQw4w9WgXcQ)
 5. Comment on the original video with `re:RESPONSE_VIDEO_ID` (e.g., I had a similar experience to you! re:3BFTio5296w)
 6. Enjoy building a community on YouTube!
+
+\* To install the extension in Safari, go to `Settings` > `Developer` > `Add Temporary Extension` > Select the extension's folder.
+First you have to build 
 
 ---
 
@@ -69,3 +71,6 @@ To lint and test them you can run `web-ext lint` and `web-ext run` inside `dist/
 It's at least the way I do it.
 
 **web-ext** needs to be installed globally: `npm install --global web-ext` to use its commands.
+
+**[Note to myself]** to delete the Mac files after compression use
+`zip -d filename.zip __MACOSX/\*`
