@@ -9,16 +9,14 @@ ReTube is a simple browser extension bringing the Video Responses feature back 
 - Whatever else you can think of
 
 ## Instructions
-1. Install the extension in your browser: [Chromium](https://chromewebstore.google.com/detail/retube-%E2%80%93-youtube-video-re/pdbemkgdionejlkopddojpjighilhdlk), [Firefox](https://addons.mozilla.org/en-US/firefox/addon/retube/)*, Safari **
+1. Install the extension in your browser: [Chromium](https://chromewebstore.google.com/detail/retube-%E2%80%93-youtube-video-re/pdbemkgdionejlkopddojpjighilhdlk), [Firefox](https://addons.mozilla.org/en-US/firefox/addon/retube/), Safari *
 2. Go to any video page on YouTube
 3. Copy the video's ID from the URL – e.g., https://www.youtube.com/watch?v=dQw4w9WgXcQ → `dQw4w9WgXcQ`
 4. Create a video response by adding `re:ORIGINAL_VIDEO_ID` to your video's title (e.g., re:dQw4w9WgXcQ)
 5. Comment on the original video with `re:RESPONSE_VIDEO_ID` (e.g., I had a similar experience to you! re:3BFTio5296w)
 6. Enjoy building a community on YouTube!
 
-\* Firefox version is still **awaiting review** on April 15th.
-
-\** Safari version will probably never be easily installable as I don't want to pay Apple the $99 for a Developer Account.
+\* Safari version will probably never be easily installable as I don't want to pay Apple the $99 for a Developer Account.
 I'm _(not really)_ sorry. You can install the extension in Safari by downloading its `dist/` folder and going to Safari's `Settings` > `Developer` > `Add Temporary Extension` > Select the extension's folder.
 
 ---
